@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 69580030591929247955880c97487aa4
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Supernett cn
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 25d94f85fc9211947bd3f9eedddec7aa, type: 3}
+  - {fileID: 12800000, guid: 641d551caa5157f4da6e40a09b81e4d7, type: 3}
+  - {fileID: 12800000, guid: e5d57dce6493c054f9bdee7be72b748f, type: 3}
+  - {fileID: 12800000, guid: 4274c73c8c9e9314aa6183ac887175c1, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
