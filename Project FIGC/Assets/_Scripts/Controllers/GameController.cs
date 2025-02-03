@@ -15,6 +15,7 @@ public class GameController : MonoBehaviour
     //public DestinyController destinyController;
     
     public VideoController videoController;
+    public GameSequenceController gameSequenceController;
 
     [SerializeField] private GameObject dialogueAudioGO;
 
@@ -30,7 +31,7 @@ public class GameController : MonoBehaviour
 
     private enum State
     {
-        IDLE, ANIMATE, CHOOSE, VIDEO
+        IDLE, ANIMATE, CHOOSE, VIDEO, GAME
     }
 
     void Start()
@@ -164,6 +165,11 @@ public class GameController : MonoBehaviour
         {
             state = State.VIDEO;
             videoController.SetupChoose(scene as Videos);
+        }
+        else if (scene is GameSequence) 
+        {
+            state = State.GAME;
+            gameSequenceController.SetupChoose(scene as GameSequence);
         }
         
     }

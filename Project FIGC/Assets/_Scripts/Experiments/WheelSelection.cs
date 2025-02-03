@@ -142,7 +142,6 @@ public class WheelSelection : MonoBehaviour
             rectTransform.localPosition = pos;
         }
 
-        // Optional: pause game or slow time
         Time.timeScale = 0.3f;
     }
 

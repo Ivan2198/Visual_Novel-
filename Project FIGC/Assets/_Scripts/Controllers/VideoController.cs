@@ -17,10 +17,10 @@ public class VideoController : MonoBehaviour
         animator = GetComponent<Animator>();
         if (videoPlayer == null)
             videoPlayer = GetComponent<VideoPlayer>();
-        // Prepare the video
+       
         videoPlayer.Prepare();
 
-        // Subscribe to the prepareCompleted event
+
         videoPlayer.prepareCompleted += OnVideoPrepared;
     }
 
@@ -73,17 +73,17 @@ public class VideoController : MonoBehaviour
     }
     private void OnVideoPrepared(VideoPlayer source)
     {
-        // Access the duration of the video once it is prepared
+ 
         float durationInSeconds = (float)videoPlayer.length;
         Debug.Log("Video Duration: " + durationInSeconds + " seconds.");
 
-        // Optionally, you can start playing the video
+
         //videoPlayer.Play();
     }
 
     void OnDestroy()
     {
-        // Unsubscribe from the event when the GameObject is destroyed
+
         if (videoPlayer != null)
         {
             videoPlayer.prepareCompleted -= OnVideoPrepared;

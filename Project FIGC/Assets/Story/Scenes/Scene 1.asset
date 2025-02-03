@@ -20,6 +20,6 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 55ad436b151b9484a9a0414464f25044, type: 3}
-  nextScene: {fileID: 11400000, guid: 2ff49672746cb644ba2c0dde9d313d79, type: 2}
+  nextScene: {fileID: 11400000, guid: 03f5e14048ca40b4ba5ddac3c346e79a, type: 2}
   escenaFinal: 0
   sceneTransition: 0
