@@ -21,6 +21,11 @@ public class CameraMovement : MonoBehaviour
         {
             MoveCameraToTarget();
         }
+
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            ResetCamera();
+        }
     }
 
     public void MoveCameraToTarget()
@@ -43,5 +48,10 @@ public class CameraMovement : MonoBehaviour
     public void StopCameraMovement()
     {
         mainCamera.transform.DOKill();
+    }
+
+    private void ResetCamera()
+    {
+        mainCamera.transform.position = new Vector3(0, 0, -10);
     }
 }
