@@ -41,8 +41,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _0Bottom: 0.1
     - _ColorMask: 15
-    - _CutoffHeight: -700
+    - _CutoffHeight: -468.1
+    - _CutoffHeightTop: 188.7
+    - _CutoffWidth: -828.9
     - _NoiseScale: 100
     - _NoiseStrenght: 100
     - _Stencil: 0
@@ -55,6 +58,8 @@ Material:
     - _VoronoiScale: 5
     m_Colors:
     - _ClipRect: {r: 0, g: 0, b: 0, a: 0}
-    - _ScrollVelocity: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _ScrollVelocity: {r: 0, g: 0, b: 0, a: 0}
+    - _ScrollVelocityX: {r: 0.01, g: 0, b: 0, a: 0}
+    - _ScrollVelocityY: {r: 0, g: 0.01, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
