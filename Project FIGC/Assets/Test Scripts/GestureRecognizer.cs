@@ -145,7 +145,7 @@ namespace PDollarGestureRecognizer
 
             GUI.Label(new Rect(10, Screen.height - 40, 500, 50), message);
 
-            /*
+            
 
 			if (GUI.Button(new Rect(Screen.width - 100, 10, 100, 30), "Recognize"))
 			{
@@ -156,7 +156,7 @@ namespace PDollarGestureRecognizer
 
 				message = gestureResult.GestureClass + " " + gestureResult.Score;
 			}
-			*/
+			
 
             GUI.Label(new Rect(Screen.width - 200, 150, 70, 30), "Add as: ");
             newGestureName = GUI.TextField(new Rect(Screen.width - 150, 150, 100, 30), newGestureName);
@@ -247,5 +247,24 @@ namespace PDollarGestureRecognizer
 
             gestureLinesRenderer.Clear();
         }
+
+        private void OnDrawGizmos()
+        {
+          
+            Gizmos.color = Color.green;
+
+           
+            Vector3 bottomLeft = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width - 800, Screen.height - 325, 10));
+            Vector3 bottomRight = Camera.main.ScreenToWorldPoint(new Vector3((Screen.width - 800) + drawAreaWidth, Screen.height - 325, 10));
+            Vector3 topLeft = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width - 800, (Screen.height - 325) + drawAreaHeight, 10));
+            Vector3 topRight = Camera.main.ScreenToWorldPoint(new Vector3((Screen.width - 800) + drawAreaWidth, (Screen.height - 325) + drawAreaHeight, 10));
+
+           
+            Gizmos.DrawLine(bottomLeft, bottomRight);
+            Gizmos.DrawLine(bottomRight, topRight);
+            Gizmos.DrawLine(topRight, topLeft);
+            Gizmos.DrawLine(topLeft, bottomLeft);
+        }
     }
+
 }

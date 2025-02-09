@@ -1225,6 +1225,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7949114497530698102, guid: 6cf8b0e6eec66bd4282d120158c5b498, type: 3}
+      propertyPath: gestureOnScreenPrefab
+      value: 
+      objectReference: {fileID: 400000, guid: 971129baafd304455a111daa5207b8a1, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
