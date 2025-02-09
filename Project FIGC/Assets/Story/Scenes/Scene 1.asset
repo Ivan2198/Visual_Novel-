@@ -13,15 +13,10 @@ MonoBehaviour:
   m_Name: Scene 1
   m_EditorClassIdentifier: 
   sentences:
-  - text: Hola<speed
+  - text: Hola
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
-    actions:
-    - speaker: {fileID: 0}
-      spriteIndex: 0
-      actionType: 0
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 55ad436b151b9484a9a0414464f25044, type: 3}

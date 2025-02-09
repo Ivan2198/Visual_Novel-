@@ -17,7 +17,6 @@ MonoBehaviour:
   boxtext: {fileID: 0}
   aling: 514
   namePositionX: 2000
-  color: {r: 1, g: 1, b: 1, a: 0}
-  sprites:
-  - {fileID: 0}
+  color: {r: 1, g: 1, b: 1, a: 1}
+  sprites: []
   prefab: {fileID: -400084230080365608, guid: 42c301630ab47a54d8f67b5870a06291, type: 3}
