@@ -43,8 +43,14 @@ namespace PDollarGestureRecognizer
         {
             platform = Application.platform;
 
-            // Construct the draw area with the background
-            drawArea = new Rect(Screen.width - 800, Screen.height - 325, drawAreaWidth, drawAreaHeight);
+            // Set draw area to half the screen width and height, centered
+            drawAreaWidth = Screen.width / 2;
+            drawAreaHeight = Screen.height / 2;
+
+            // Center the draw area
+            float x = (Screen.width - drawAreaWidth) / 2;
+            float y = (Screen.height - drawAreaHeight) / 2;
+            drawArea = new Rect(x, y, drawAreaWidth, drawAreaHeight);
 
             //Load pre-made gestures
             TextAsset[] gesturesXml = Resources.LoadAll<TextAsset>("GestureSet/10-stylus-MEDIUM/");
@@ -114,63 +120,74 @@ namespace PDollarGestureRecognizer
                     currentGestureLineRenderer.positionCount = ++vertexCount;
                     currentGestureLineRenderer.SetPosition(vertexCount - 1, Camera.main.ScreenToWorldPoint(new Vector3(virtualKeyPosition.x, virtualKeyPosition.y, 10)));
                 }
+
+                if(Input.GetKeyDown(KeyCode.T))
+                {
+                    TryRecognizeGesture();
+                }
             }
         }
 
         void OnGUI()
         {
+            // Scale GUI based on 1920x1080 resolution
+            float scaleX = Screen.width / 1920f;
+            float scaleY = Screen.height / 1080f;
 
-            // Create Texture2D for background of drawing area
-            drawAreaBackground = new Texture2D(250, 250, TextureFormat.RGBA32, false);
-
-            // Array of Color to set each pixel color
+            // Create background texture matching the new size
+            drawAreaBackground = new Texture2D(drawAreaWidth, drawAreaHeight, TextureFormat.RGBA32, false);
             var drawAreaBackgroundPixels = new Color[drawAreaBackground.width * drawAreaBackground.height];
-
-            // Fill the array with the corresponding color
             for (int i = 0; i < drawAreaBackgroundPixels.Length; i++)
             {
-                drawAreaBackgroundPixels[i] = new Color(0.8f, 0.8f, 0.8f, 0f);
+                drawAreaBackgroundPixels[i] = new Color(0.8f, 0.8f, 0.8f, 0.1f); // Made slightly visible
             }
-
-            // Set the pixel colors
             drawAreaBackground.SetPixels(drawAreaBackgroundPixels);
             drawAreaBackground.Apply();
 
-            // Set the painted texture on a style
             var style = new GUIStyle();
             style.normal.background = drawAreaBackground;
 
-
             GUI.Box(drawArea, GUIContent.none, style);
 
-            GUI.Label(new Rect(10, Screen.height - 40, 500, 50), message);
+            // Scale and position UI elements relative to screen size
+            float buttonWidth = 100 * scaleX;
+            float buttonHeight = 30 * scaleY;
+            float margin = 10 * scaleX;
 
-            
-
-			if (GUI.Button(new Rect(Screen.width - 100, 10, 100, 30), "Recognize"))
-			{
-				recognized = true;
-
-				Gesture candidate = new Gesture(points.ToArray());
-				Result gestureResult = PointCloudRecognizer.Classify(candidate, trainingSet.ToArray());
-
-				message = gestureResult.GestureClass + " " + gestureResult.Score;
-			}
-			
-
-            GUI.Label(new Rect(Screen.width - 200, 150, 70, 30), "Add as: ");
-            newGestureName = GUI.TextField(new Rect(Screen.width - 150, 150, 100, 30), newGestureName);
-
-            if (GUI.Button(new Rect(Screen.width - 50, 150, 50, 30), "Add") && points.Count > 0 && newGestureName != "")
+            // Recognition button - top right
+            if (GUI.Button(new Rect(Screen.width - buttonWidth - margin, margin,
+                buttonWidth, buttonHeight), "Recognize"))
             {
-                string fileName = String.Format("{0}/{1}-{2}.xml", Application.persistentDataPath, newGestureName, DateTime.Now.ToFileTime());
+                recognized = true;
+                Gesture candidate = new Gesture(points.ToArray());
+                Result gestureResult = PointCloudRecognizer.Classify(candidate, trainingSet.ToArray());
+                message = gestureResult.GestureClass + " " + gestureResult.Score;
+            }
+
+            // Message label - bottom
+            GUI.Label(new Rect(margin, Screen.height - 40 * scaleY,
+                500 * scaleX, 50 * scaleY), message);
+
+            // Add gesture controls - right side
+            float rightSideX = Screen.width - 200 * scaleX;
+            float rightSideY = 150 * scaleY;
+
+            GUI.Label(new Rect(rightSideX, rightSideY,
+                70 * scaleX, buttonHeight), "Add as: ");
+
+            newGestureName = GUI.TextField(new Rect(rightSideX + 70 * scaleX, rightSideY,
+                100 * scaleX, buttonHeight), newGestureName);
+
+            if (GUI.Button(new Rect(rightSideX + 180 * scaleX, rightSideY,
+                50 * scaleX, buttonHeight), "Add") && points.Count > 0 && newGestureName != "")
+            {
+                string fileName = String.Format("{0}/{1}-{2}.xml",
+                    Application.persistentDataPath, newGestureName, DateTime.Now.ToFileTime());
 
 #if !UNITY_WEBPLAYER
                 GestureIO.WriteGesture(points.ToArray(), newGestureName, fileName);
 #endif
-
                 trainingSet.Add(new Gesture(points.ToArray(), newGestureName));
-
                 newGestureName = "";
             }
         }
@@ -250,16 +267,17 @@ namespace PDollarGestureRecognizer
 
         private void OnDrawGizmos()
         {
-          
             Gizmos.color = Color.green;
 
-           
-            Vector3 bottomLeft = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width - 800, Screen.height - 325, 10));
-            Vector3 bottomRight = Camera.main.ScreenToWorldPoint(new Vector3((Screen.width - 800) + drawAreaWidth, Screen.height - 325, 10));
-            Vector3 topLeft = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width - 800, (Screen.height - 325) + drawAreaHeight, 10));
-            Vector3 topRight = Camera.main.ScreenToWorldPoint(new Vector3((Screen.width - 800) + drawAreaWidth, (Screen.height - 325) + drawAreaHeight, 10));
+            // Calculate centered draw area corners
+            float x = (Screen.width - drawAreaWidth) / 2f;
+            float y = (Screen.height - drawAreaHeight) / 2f;
 
-           
+            Vector3 bottomLeft = Camera.main.ScreenToWorldPoint(new Vector3(x, y, 10));
+            Vector3 bottomRight = Camera.main.ScreenToWorldPoint(new Vector3(x + drawAreaWidth, y, 10));
+            Vector3 topLeft = Camera.main.ScreenToWorldPoint(new Vector3(x, y + drawAreaHeight, 10));
+            Vector3 topRight = Camera.main.ScreenToWorldPoint(new Vector3(x + drawAreaWidth, y + drawAreaHeight, 10));
+
             Gizmos.DrawLine(bottomLeft, bottomRight);
             Gizmos.DrawLine(bottomRight, topRight);
             Gizmos.DrawLine(topRight, topLeft);
