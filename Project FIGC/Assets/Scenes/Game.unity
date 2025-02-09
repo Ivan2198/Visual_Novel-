@@ -3638,8 +3638,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1578685900}
   - component: {fileID: 1578685902}
+  - component: {fileID: 1578685906}
+  - component: {fileID: 1578685908}
   - component: {fileID: 1578685903}
-  - component: {fileID: 1578685905}
+  - component: {fileID: 1578685907}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -3780,7 +3782,21 @@ MonoBehaviour:
   onDialogueFinish:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1578685905
+--- !u!114 &1578685906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578685899}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3152ee546cba494a9b9c0f7c6a55799, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1578685903}
+  tremblingMagnitude: 0.5
+--- !u!114 &1578685907
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3793,6 +3809,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1578685903}
+--- !u!114 &1578685908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578685899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b1f3c1557b62ff41af53ec906ea952e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1578685903}
+  swayAmount: 3
+  swaySpeed: 2
+  animate: 1
 --- !u!1 &1665903449
 GameObject:
   m_ObjectHideFlags: 0
