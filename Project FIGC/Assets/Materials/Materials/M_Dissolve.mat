@@ -49,7 +49,7 @@ Material:
     - _NoiseScale: 20
     - _NoiseStrength: 0.5
     m_Colors:
-    - _Speed: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _Speed: {r: 0.1, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &6917462026918687699
