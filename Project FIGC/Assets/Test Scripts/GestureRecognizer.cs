@@ -233,12 +233,13 @@ namespace PDollarGestureRecognizer
 
                     case "X":
                         Debug.Log("Recognized: X");
-                        OnXRecognized?.Invoke();
-                        gameSequenceController.PerformChoose(scene);
+                        
                         break;
 
                     case "H":
                         Debug.Log("Recognized: H");
+                        OnXRecognized?.Invoke();
+                        gameSequenceController.PerformChoose(scene);
                         break;
 
                     case "I":
