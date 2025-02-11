@@ -16,6 +16,7 @@ public class GameController : MonoBehaviour
     
     public VideoController videoController;
     public GameSequenceController gameSequenceController;
+    public LongSceneController longSceneController;
 
     [SerializeField] private GameObject dialogueAudioGO;
 
@@ -31,7 +32,7 @@ public class GameController : MonoBehaviour
 
     private enum State
     {
-        IDLE, ANIMATE, CHOOSE, VIDEO, GAME
+        IDLE, ANIMATE, CHOOSE, VIDEO, GAME, LONGSCENE
     }
 
     void Start()
@@ -170,6 +171,11 @@ public class GameController : MonoBehaviour
         {
             state = State.GAME;
             gameSequenceController.SetupChoose(scene as GameSequence);
+        }
+        else if (scene is LongScene)
+        {
+            state = State.LONGSCENE;
+            longSceneController.SetupChoose(scene as LongScene);
         }
         
     }
