@@ -381,6 +381,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameController: {fileID: 1759597901}
   gameSequenceGO: {fileID: 1519807702}
+  timeRemaining: 5
+  state: 2
 --- !u!1 &98587515
 GameObject:
   m_ObjectHideFlags: 0
