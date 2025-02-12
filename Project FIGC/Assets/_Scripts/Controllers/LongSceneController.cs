@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using System.Collections.Generic;
 
 public class LongSceneController : MonoBehaviour
 {
@@ -8,14 +9,15 @@ public class LongSceneController : MonoBehaviour
     [SerializeField] private GameObject longSceneGO;
 
     [Header("Paneo")]
-    [SerializeField] private RectTransform imageRectTransform;
+    [SerializeField] private List<RectTransform> parallaxLayers; // List of images for parallax
+    [SerializeField] private List<float> parallaxSpeeds; // Speed multipliers for each layer
     [SerializeField] private float scrollDuration = 10f;
     [SerializeField] private float pauseDuration = 2f;
     [SerializeField] private Ease scrollEase = Ease.InOutQuad;
 
     private float startPosition;
     private float endPosition;
-    private Sequence scrollSequence;
+    private List<Sequence> scrollSequences = new List<Sequence>();
 
     private void Update()
     {
@@ -24,62 +26,74 @@ public class LongSceneController : MonoBehaviour
             CreateScrollSequence();
         }
     }
+
     public void CreateScrollSequence()
     {
-        // Kill any existing sequence
-        scrollSequence?.Kill();
+        // Kill existing sequences
+        foreach (var seq in scrollSequences)
+        {
+            seq?.Kill();
+        }
+        scrollSequences.Clear();
 
-        // Create a new sequence
-        scrollSequence = DOTween.Sequence();
+        // Calculate positions
+        startPosition = 0f;
+        endPosition = -1920f;
 
-        // Reset position
-        imageRectTransform.anchoredPosition = new Vector2(startPosition, imageRectTransform.anchoredPosition.y);
+        for (int i = 0; i < parallaxLayers.Count; i++)
+        {
+            RectTransform layer = parallaxLayers[i];
+            float speedMultiplier = parallaxSpeeds[i];
 
-        // Add the scroll animation
-        scrollSequence.Append(imageRectTransform.DOAnchorPosX(endPosition, scrollDuration).SetEase(scrollEase))
-                     .AppendInterval(pauseDuration)
-                     .Append(imageRectTransform.DOAnchorPosX(startPosition, scrollDuration).SetEase(scrollEase))
-                     .AppendInterval(pauseDuration)
-                     .SetLoops(-1); // -1 means infinite loops
+            Sequence layerSequence = DOTween.Sequence();
+
+            // Reset position
+            layer.anchoredPosition = new Vector2(startPosition, layer.anchoredPosition.y);
+
+            // Add parallax scrolling effect (plays only once)
+            layerSequence.Append(layer.DOAnchorPosX(endPosition * speedMultiplier, scrollDuration).SetEase(scrollEase))
+                         .AppendInterval(pauseDuration)
+                         .AppendCallback(() => Debug.Log($"Layer {i} animation completed"));
+
+            scrollSequences.Add(layerSequence);
+        }
     }
 
     private void OnDisable()
     {
-        // Clean up the sequence when the object is disabled
-        scrollSequence?.Kill();
+        // Kill all parallax sequences when disabled
+        foreach (var seq in scrollSequences)
+        {
+            seq?.Kill();
+        }
     }
 
-    // Public method to pause the scrolling
     public void PauseScrolling()
     {
-        scrollSequence?.Pause();
+        foreach (var seq in scrollSequences)
+        {
+            seq?.Pause();
+        }
     }
 
-    // Public method to resume the scrolling
     public void ResumeScrolling()
     {
-        scrollSequence?.Play();
+        foreach (var seq in scrollSequences)
+        {
+            seq?.Play();
+        }
     }
 
-    // Public method to restart the scrolling from the beginning
     public void RestartScrolling()
     {
         CreateScrollSequence();
     }
+
     public void SetupChoose(LongScene scene)
     {
-        if (imageRectTransform == null)
-        {
-            imageRectTransform = GetComponent<RectTransform>();
-        }
-
-        // Calculate start and end positions
-        // For a 3840px wide image in 1920px viewport, we need to move -1920px
-        startPosition = 0f;
-        endPosition = -1920f;
-
         longSceneGO.SetActive(true);
-        Debug.Log("Game Sequence");
+        //CreateScrollSequence();
+        Debug.Log("Game Sequence Started");
     }
 
     public void PerformChoose(StoryScene scene)
