@@ -43,11 +43,11 @@ Material:
     m_Floats:
     - _0Bottom: 0.1
     - _ColorMask: 15
-    - _CutoffHeight: -468.1
-    - _CutoffHeightTop: 188.7
-    - _CutoffWidth: -828.9
-    - _NoiseScale: 100
-    - _NoiseStrenght: 100
+    - _CutoffHeight: -674.1
+    - _CutoffHeightTop: 93.9
+    - _CutoffWidth: -743.3
+    - _NoiseScale: 50
+    - _NoiseStrenght: 300
     - _Stencil: 0
     - _StencilComp: 8
     - _StencilOp: 0

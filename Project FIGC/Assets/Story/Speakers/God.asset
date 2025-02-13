@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: God
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  boxtext: {fileID: 0}
+  boxtext: {fileID: 3800782402952206127, guid: cf829a33e2f3b8547ae588c80655c5fa, type: 3}
   aling: 514
-  namePositionX: 2000
-  color: {r: 1, g: 1, b: 1, a: 0.9411765}
+  namePositionX: -510
+  color: {r: 1, g: 1, b: 1, a: 1}
   sprites: []
   prefab: {fileID: -400084230080365608, guid: 42c301630ab47a54d8f67b5870a06291, type: 3}

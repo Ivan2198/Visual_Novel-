@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Scene 1
   m_EditorClassIdentifier: 
   sentences:
-  - text: Hola
+  - text: ...
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 55ad436b151b9484a9a0414464f25044, type: 3}
+  background: {fileID: 3462030887005326312, guid: 72101e7e48476e64185a4d25b4156219, type: 3}
   nextScene: {fileID: 11400000, guid: 03f5e14048ca40b4ba5ddac3c346e79a, type: 2}
   escenaFinal: 0
   sceneTransition: 0
