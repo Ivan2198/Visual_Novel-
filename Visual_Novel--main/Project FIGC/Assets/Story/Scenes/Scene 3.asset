@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: Scene 3
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: ...
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 50d4dc4497ea1a041bf53acd7a842de7, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 50d4dc4497ea1a041bf53acd7a842de7, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -500, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: c34438a3e1cf19249a44f3565d544128, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 500, y: -300}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: ...
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 50d4dc4497ea1a041bf53acd7a842de7, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 50d4dc4497ea1a041bf53acd7a842de7, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: -500, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: c34438a3e1cf19249a44f3565d544128, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 500, y: -300}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 82cd3937897bb194699a9749b2f64f2c, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -500, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: -423750016203867740, guid: d538028454bdc5b47bca3f6559125836, type: 3}
+  nextScene: {fileID: 11400000, guid: 03f5e14048ca40b4ba5ddac3c346e79a, type: 2}
+  escenaFinal: 0
+  sceneTransition: 0

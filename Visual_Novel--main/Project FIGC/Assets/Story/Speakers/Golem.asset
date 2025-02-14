@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0e6a862dae1ccf488ae4d4570f9f88c, type: 3}
+  m_Name: Golem
+  m_EditorClassIdentifier: 
+  speakerName: Golem
+  nameBubbleColor: {r: 1, g: 1, b: 1, a: 0}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  boxtext: {fileID: 21300000, guid: 034c038d3e0269d488fda2f1baa54202, type: 3}
+  aling: 0
+  namePositionX: -510
+  sprites:
+  - {fileID: 21300000, guid: 79e6456286bc0784c97c249fca416948, type: 3}
+  prefab: {fileID: -400084230080365608, guid: f3f68f42df2310f4a967cc5d3f292cac, type: 3}
