@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0e6a862dae1ccf488ae4d4570f9f88c, type: 3}
   m_Name: God
   m_EditorClassIdentifier: 
-  speakerName: God
+  speakerName: Golem
+  nameBubbleColor: {r: 0, g: 0, b: 0, a: 0}
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  boxtext: {fileID: 3800782402952206127, guid: cf829a33e2f3b8547ae588c80655c5fa, type: 3}
+  boxtext: {fileID: 21300000, guid: 034c038d3e0269d488fda2f1baa54202, type: 3}
   aling: 514
   namePositionX: -510
-  color: {r: 1, g: 1, b: 1, a: 1}
   sprites: []
   prefab: {fileID: -400084230080365608, guid: 42c301630ab47a54d8f67b5870a06291, type: 3}

@@ -22,6 +22,11 @@ MonoBehaviour:
       actionType: 1
       coords: {x: 500, y: -100}
       moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 50d4dc4497ea1a041bf53acd7a842de7, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -500, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: ...
@@ -33,9 +38,14 @@ MonoBehaviour:
       actionType: 3
       coords: {x: 500, y: -100}
       moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 50d4dc4497ea1a041bf53acd7a842de7, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: -500, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 218919022896475455, guid: 78e69d714cbdd0843a9c821575bd1e15, type: 3}
-  nextScene: {fileID: 11400000, guid: 03f5e14048ca40b4ba5ddac3c346e79a, type: 2}
+  nextScene: {fileID: 11400000, guid: 434db562cec1ec24a9a042ec902f0070, type: 2}
   escenaFinal: 0
   sceneTransition: 0

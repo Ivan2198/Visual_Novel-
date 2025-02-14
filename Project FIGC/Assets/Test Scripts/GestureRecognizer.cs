@@ -53,13 +53,13 @@ namespace PDollarGestureRecognizer
         {
             platform = Application.platform;
 
-            // Set draw area to half the screen width and height, centered
+            // Set draw area to cover the right half of the screen
             drawAreaWidth = Screen.width / 2;
-            drawAreaHeight = Screen.height / 2;
+            drawAreaHeight = Screen.height;
 
-            // Center the draw area
-            float x = (Screen.width - drawAreaWidth) / 2;
-            float y = (Screen.height - drawAreaHeight) / 2;
+            // Position it to start from the middle of the screen
+            float x = Screen.width / 2;
+            float y = 0;
             drawArea = new Rect(x, y, drawAreaWidth, drawAreaHeight);
 
             //Load pre-made gestures
@@ -289,9 +289,8 @@ namespace PDollarGestureRecognizer
         {
             Gizmos.color = Color.green;
 
-            // Calculate centered draw area corners
-            float x = (Screen.width - drawAreaWidth) / 2f;
-            float y = (Screen.height - drawAreaHeight) / 2f;
+            float x = Screen.width / 2f;
+            float y = 0f;
 
             Vector3 bottomLeft = Camera.main.ScreenToWorldPoint(new Vector3(x, y, 10));
             Vector3 bottomRight = Camera.main.ScreenToWorldPoint(new Vector3(x + drawAreaWidth, y, 10));

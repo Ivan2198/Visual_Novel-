@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0e6a862dae1ccf488ae4d4570f9f88c, type: 3}
+  m_Name: Enojado
+  m_EditorClassIdentifier: 
+  speakerName: GolemEnojado
+  nameBubbleColor: {r: 1, g: 1, b: 1, a: 0}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  boxtext: {fileID: 21300000, guid: 034c038d3e0269d488fda2f1baa54202, type: 3}
+  aling: 0
+  namePositionX: -510
+  sprites:
+  - {fileID: 21300000, guid: 215fdbc7df0bb7149a65888acc0cd689, type: 3}
+  prefab: {fileID: -400084230080365608, guid: a0ebb8907b83df44c8dc2fc2dea3ed1e, type: 3}

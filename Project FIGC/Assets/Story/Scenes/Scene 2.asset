@@ -13,15 +13,13 @@ MonoBehaviour:
   m_Name: Scene 2
   m_EditorClassIdentifier: 
   sentences:
-  - text: 'Felicidades Shinji
-
-'
+  - text: ...
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 3462030887005326312, guid: 72101e7e48476e64185a4d25b4156219, type: 3}
-  nextScene: {fileID: 11400000, guid: 434db562cec1ec24a9a042ec902f0070, type: 2}
+  background: {fileID: -7621810577759617727, guid: c5f97e45254583c48837880ed34ba9b0, type: 3}
+  nextScene: {fileID: 11400000, guid: e4cd30da3bef6284f98a3c6222112481, type: 2}
   escenaFinal: 0
   sceneTransition: 0

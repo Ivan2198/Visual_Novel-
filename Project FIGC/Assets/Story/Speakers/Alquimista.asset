@@ -15,15 +15,14 @@ MonoBehaviour:
   speakerName: Alquimista
   nameBubbleColor: {r: 0, g: 0, b: 0, a: 0}
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  boxtext: {fileID: 1982055125329824813, guid: 034c038d3e0269d488fda2f1baa54202, type: 3}
+  boxtext: {fileID: 21300000, guid: 034c038d3e0269d488fda2f1baa54202, type: 3}
   aling: 257
   namePositionX: -510
   sprites:
-  - {fileID: 21300000, guid: 5143f6eab71fdb7498a9bfa29827b869, type: 3}
-  - {fileID: 21300000, guid: 63aa4f738e9646144a6205987c6f4515, type: 3}
-  - {fileID: 21300000, guid: a296d3ebdbf5fbf4b8de224bc10df936, type: 3}
-  - {fileID: 21300000, guid: 0c758e8ba217ccf4d89f11dec9dae5a7, type: 3}
-  - {fileID: 21300000, guid: be0f3e1820f52174fb43a5648882840b, type: 3}
-  - {fileID: 21300000, guid: bb0216ae18b9a834fb92fa2df653e417, type: 3}
-  - {fileID: 21300000, guid: 87501a6877cb5d041a6504edd920699a, type: 3}
+  - {fileID: 21300000, guid: a35aa7ef1817cee4f8db6cc972e4a23c, type: 3}
+  - {fileID: 21300000, guid: e7e3df95f9f61de499a7afdbcf80a7be, type: 3}
+  - {fileID: 21300000, guid: f74a38afe93e4d547ba603102d889c94, type: 3}
+  - {fileID: 21300000, guid: 4c7d4ca292dc2e0448a1722af6557126, type: 3}
+  - {fileID: 21300000, guid: 310f7e772bb9a04408a5800bdcc58120, type: 3}
+  - {fileID: 21300000, guid: f556aaa994105de45bc340eddc6b2f2e, type: 3}
   prefab: {fileID: -400084230080365608, guid: 29911443053ccc94c9f8ebcfde96b8ca, type: 3}

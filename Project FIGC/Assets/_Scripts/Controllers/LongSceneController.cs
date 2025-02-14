@@ -23,6 +23,7 @@ public class LongSceneController : MonoBehaviour
     private LongScene longScene;
 
     [SerializeField] private Animator golemAnimator;
+    [SerializeField] private GameObject startButtonGO;
 
     private void Update()
     {
@@ -110,6 +111,8 @@ public class LongSceneController : MonoBehaviour
 
     public void SetupChoose(LongScene scene)
     {
+        startButtonGO.SetActive(true);
+        ResetParallaxPositions();
         bgImage.sprite = scene.sprite;
         golemGO.SetActive(true);
         longSceneGO.SetActive(true);
@@ -123,6 +126,7 @@ public class LongSceneController : MonoBehaviour
         golemAnimator.CrossFade("Hide", 0, 0);
         gameController.PlayScene(scene);
         longSceneGO.SetActive(false);
+        golemGO.SetActive(false);
     }
 
     public void StartAnimation()
@@ -133,5 +137,12 @@ public class LongSceneController : MonoBehaviour
     {
         StartAnimation();
         CreateScrollSequence();
+    }
+    public void ResetParallaxPositions()
+    {
+        foreach (var layer in parallaxLayers)
+        {
+            layer.anchoredPosition = new Vector2(startPosition, layer.anchoredPosition.y);
+        }
     }
 }
