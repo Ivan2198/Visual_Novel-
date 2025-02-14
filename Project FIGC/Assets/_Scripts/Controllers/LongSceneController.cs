@@ -25,6 +25,8 @@ public class LongSceneController : MonoBehaviour
     [SerializeField] private Animator golemAnimator;
     [SerializeField] private GameObject startButtonGO;
 
+    [SerializeField] private AudioSource walkingSound;
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.U))
@@ -37,6 +39,7 @@ public class LongSceneController : MonoBehaviour
     public void CreateScrollSequence()
     {
         golemAnimator.CrossFade("Walking", 0, 0);
+        walkingSound.Play();
         // Kill existing sequences
         foreach (var seq in scrollSequences)
         {
@@ -123,6 +126,7 @@ public class LongSceneController : MonoBehaviour
 
     public void PerformChoose(StoryScene scene)
     {
+        walkingSound.Stop();
         golemAnimator.CrossFade("Hide", 0, 0);
         gameController.PlayScene(scene);
         longSceneGO.SetActive(false);

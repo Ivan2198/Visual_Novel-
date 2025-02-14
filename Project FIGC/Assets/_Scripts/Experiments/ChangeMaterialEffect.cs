@@ -16,6 +16,7 @@ public class MaterialLerp : MonoBehaviour
         //{
         //    StartCoroutine(LerpMaterial());
         //}
+        targetMaterial.SetColor("_Color", colorA);
     }
     private void Update()
     {
