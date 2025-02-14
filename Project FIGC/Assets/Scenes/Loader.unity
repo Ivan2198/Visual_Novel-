@@ -237,7 +237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToUnload: Menu
   loaderScene: Loader
-  sceneToLoad: Game
+  sceneToLoad: Opening
 --- !u!1 &576314721
 GameObject:
   m_ObjectHideFlags: 0

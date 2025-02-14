@@ -7,6 +7,7 @@ public class LongSceneController : MonoBehaviour
 {
     public GameController gameController;
     [SerializeField] private GameObject longSceneGO;
+    [SerializeField] private GameObject golemGO;
 
     [Header("Paneo")]
     [SerializeField] private Image bgImage;
@@ -21,16 +22,20 @@ public class LongSceneController : MonoBehaviour
     private List<Sequence> scrollSequences = new List<Sequence>();
     private LongScene longScene;
 
+    [SerializeField] private Animator golemAnimator;
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.U))
         {
+            StartAnimation();
             CreateScrollSequence();
         }
     }
 
     public void CreateScrollSequence()
     {
+        golemAnimator.CrossFade("Walking", 0, 0);
         // Kill existing sequences
         foreach (var seq in scrollSequences)
         {
@@ -55,11 +60,23 @@ public class LongSceneController : MonoBehaviour
             // Add parallax scrolling effect (plays only once)
             layerSequence.Append(layer.DOAnchorPosX(endPosition * speedMultiplier, scrollDuration).SetEase(scrollEase))
                          .AppendInterval(pauseDuration)
-                         .AppendCallback(() => Debug.Log($"Layer {i} animation completed"));
+                         .AppendCallback(() => {
+                             Debug.Log($"Layer {i} animation completed");
+
+                             // Check if this is the last sequence to finish
+                             bool allLayersCompleted = scrollSequences.TrueForAll(seq => seq.IsComplete());
+                             if (allLayersCompleted)
+                             {
+                                 // Switch to idle animation when all layers have finished
+                                 golemAnimator.CrossFade("Idle", 0, 0);
+                             }
+                         });
 
             scrollSequences.Add(layerSequence);
         }
     }
+
+
 
     private void OnDisable()
     {
@@ -94,14 +111,27 @@ public class LongSceneController : MonoBehaviour
     public void SetupChoose(LongScene scene)
     {
         bgImage.sprite = scene.sprite;
+        golemGO.SetActive(true);
         longSceneGO.SetActive(true);
+        golemAnimator.CrossFade("Show", 0, 0);
         //CreateScrollSequence();
         Debug.Log("Game Sequence Started");
     }
 
     public void PerformChoose(StoryScene scene)
     {
+        golemAnimator.CrossFade("Hide", 0, 0);
         gameController.PlayScene(scene);
         longSceneGO.SetActive(false);
+    }
+
+    public void StartAnimation()
+    {
+        golemAnimator.CrossFade("Walking", 0, 0);
+    }
+    public void Move()
+    {
+        StartAnimation();
+        CreateScrollSequence();
     }
 }
