@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GlowFeliz
+  m_Name: GlowSorpresa
   m_Shader: {fileID: -6465566751694194690, guid: 9a12bc66c9fbf4c47a27037b4c78338b, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -24,11 +24,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Emission:
-        m_Texture: {fileID: 2800000, guid: 9895e6815c057ba46a0b425bfd156fa5, type: 3}
+        m_Texture: {fileID: 2800000, guid: d0e19678617e1c84ca76cb06ef638d99, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: a84817557d2691046a0a5c4a57544153, type: 3}
+        m_Texture: {fileID: 2800000, guid: e02ac45062e5bd343b21f39a1015e6f5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -55,6 +55,6 @@ Material:
     - _UIMaskSoftnessY: 1
     m_Colors:
     - _ClipRect: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 2.9832952, g: 2.536322, b: 0.02491783, a: 2.9832952}
+    - _Color: {r: 1.8682836, g: 5.3175287, b: 0, a: 2.9832952}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

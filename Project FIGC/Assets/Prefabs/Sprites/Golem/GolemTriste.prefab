@@ -57,7 +57,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: cdcd4e900545b184eb69bab5fd8c72ed, type: 2}
+  m_Material: {fileID: 2100000, guid: 21800c3c3a009164ea6abfa60e91c961, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 215fdbc7df0bb7149a65888acc0cd689, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e02ac45062e5bd343b21f39a1015e6f5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 727819046495368202}
   - component: {fileID: -400084230080365608}
   m_Layer: 5
-  m_Name: GolemSF
+  m_Name: GolemTriste
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: cdcd4e900545b184eb69bab5fd8c72ed, type: 2}
+  m_Material: {fileID: 2100000, guid: 21800c3c3a009164ea6abfa60e91c961, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}

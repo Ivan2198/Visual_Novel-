@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a0e6a862dae1ccf488ae4d4570f9f88c, type: 3}
-  m_Name: Enojado
+  m_Name: GolemSorpresa
   m_EditorClassIdentifier: 
-  speakerName: GolemEnojado
-  nameBubbleColor: {r: 1, g: 1, b: 1, a: 0}
+  speakerName: Golem
+  nameBubbleColor: {r: 0, g: 0, b: 0, a: 0}
   textColor: {r: 1, g: 1, b: 1, a: 1}
   boxtext: {fileID: 21300000, guid: 034c038d3e0269d488fda2f1baa54202, type: 3}
   aling: 0
   namePositionX: -510
   sprites:
-  - {fileID: 21300000, guid: 215fdbc7df0bb7149a65888acc0cd689, type: 3}
-  prefab: {fileID: -400084230080365608, guid: a0ebb8907b83df44c8dc2fc2dea3ed1e, type: 3}
+  - {fileID: 21300000, guid: e02ac45062e5bd343b21f39a1015e6f5, type: 3}
+  prefab: {fileID: -400084230080365608, guid: 44af31902b1158e45838ea2fa8a8677f, type: 3}
