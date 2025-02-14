@@ -35,13 +35,18 @@ MonoBehaviour:
     actions:
     - speaker: {fileID: 11400000, guid: 50d4dc4497ea1a041bf53acd7a842de7, type: 2}
       spriteIndex: 0
-      actionType: 0
+      actionType: 3
       coords: {x: -500, y: 0}
       moveSpeed: 0
     - speaker: {fileID: 11400000, guid: c34438a3e1cf19249a44f3565d544128, type: 2}
       spriteIndex: 0
       actionType: 3
       coords: {x: 500, y: -300}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 82cd3937897bb194699a9749b2f64f2c, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -500, y: 0}
       moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}

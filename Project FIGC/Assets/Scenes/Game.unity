@@ -3653,7 +3653,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetMaterial: {fileID: 2100000, guid: cdcd4e900545b184eb69bab5fd8c72ed, type: 2}
   colorA: {r: 1, g: 1, b: 1, a: 1}
-  colorB: {r: 1, g: 0, b: 0.005897999, a: 1}
+  colorB: {r: 1, g: 0.8489127, b: 0, a: 1}
   intensityA: 1
   intensityB: 3
   duration: 2
@@ -3992,7 +3992,7 @@ PrefabInstance:
       objectReference: {fileID: 58829454}
     - target: {fileID: 7949114497530698102, guid: 6cf8b0e6eec66bd4282d120158c5b498, type: 3}
       propertyPath: OnXRecognized.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7949114497530698102, guid: 6cf8b0e6eec66bd4282d120158c5b498, type: 3}
       propertyPath: OnXRecognized.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -4000,7 +4000,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7949114497530698102, guid: 6cf8b0e6eec66bd4282d120158c5b498, type: 3}
       propertyPath: OnXRecognized.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7949114497530698102, guid: 6cf8b0e6eec66bd4282d120158c5b498, type: 3}
       propertyPath: OnXRecognized.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -4009,7 +4009,7 @@ PrefabInstance:
     - target: {fileID: 7949114497530698102, guid: 6cf8b0e6eec66bd4282d120158c5b498, type: 3}
       propertyPath: OnXRecognized.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 58829454}
+      objectReference: {fileID: 1484602324}
     - target: {fileID: 7949114497530698102, guid: 6cf8b0e6eec66bd4282d120158c5b498, type: 3}
       propertyPath: OnXRecognized.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -4024,7 +4024,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7949114497530698102, guid: 6cf8b0e6eec66bd4282d120158c5b498, type: 3}
       propertyPath: OnXRecognized.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PerformChoose
+      value: DoTheLerp
       objectReference: {fileID: 0}
     - target: {fileID: 7949114497530698102, guid: 6cf8b0e6eec66bd4282d120158c5b498, type: 3}
       propertyPath: OnXRecognized.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -4032,19 +4032,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7949114497530698102, guid: 6cf8b0e6eec66bd4282d120158c5b498, type: 3}
       propertyPath: OnXRecognized.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: GameSequenceController, Assembly-CSharp
+      value: MaterialLerp, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7949114497530698102, guid: 6cf8b0e6eec66bd4282d120158c5b498, type: 3}
       propertyPath: OnXRecognized.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 11400000, guid: 2ff49672746cb644ba2c0dde9d313d79, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 7949114497530698102, guid: 6cf8b0e6eec66bd4282d120158c5b498, type: 3}
       propertyPath: OnXRecognized.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7949114497530698102, guid: 6cf8b0e6eec66bd4282d120158c5b498, type: 3}
       propertyPath: OnXRecognized.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: StoryScene, Assembly-CSharp
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
