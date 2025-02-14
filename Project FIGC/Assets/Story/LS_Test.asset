@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: LS_Test
   m_EditorClassIdentifier: 
   labels: []
+  sprite: {fileID: 21300000, guid: 377f8cb9d57b3da4594761b27a85ad4b, type: 3}

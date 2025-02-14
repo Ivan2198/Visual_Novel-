@@ -15,6 +15,8 @@ public class MenuController : MonoBehaviour
     public Button loadButton;
     public AudioSource sonidito;
 
+    public string CreditsSceneName;
+
     private Animator animator;
     private int _window = 0;
 
@@ -86,5 +88,10 @@ public class MenuController : MonoBehaviour
         {
             sonidito.Play();
         }
+    }
+
+    public void GoToCredits()
+    {
+        SceneManager.LoadScene(CreditsSceneName);
     }
 }

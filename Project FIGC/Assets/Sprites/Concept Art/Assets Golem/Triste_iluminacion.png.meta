@@ -298,7 +298,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Triste_iluminacion_0: -25039503760923119
+      Triste_iluminacion_1: -6504742259275684329
+      Triste_iluminacion_2: 5085694057070025816
+      Triste_iluminacion_3: -9034042306155867029
+      Triste_iluminacion_4: 6240987910641410911
+      Triste_iluminacion_5: 2584695322958018052
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

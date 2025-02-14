@@ -1,23 +1,38 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Video;
 
 public class NextScene : MonoBehaviour
 {
-    [SerializeField] private AudioSource music;
-    [SerializeField] private float i = 0;
+    public VideoPlayer videoPlayer;
+    private bool sceneLoading = false; // Prevent multiple scene loads
+
+    private void Start()
+    {
+        if (videoPlayer != null)
+        {
+            videoPlayer.loopPointReached += OnVideoEnd; // Subscribe to event when video ends
+        }
+    }
+
     private void Update()
     {
-        
-        i += Time.deltaTime;
-
-        if(music.isPlaying == false)
+        if (!sceneLoading && Input.GetMouseButtonDown(0))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            LoadNextScene();
         }
-        if (Input.GetMouseButtonDown(0))
+    }
+
+    private void OnVideoEnd(VideoPlayer vp)
+    {
+        LoadNextScene();
+    }
+
+    private void LoadNextScene()
+    {
+        if (!sceneLoading)
         {
+            sceneLoading = true; // Prevent duplicate calls
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }

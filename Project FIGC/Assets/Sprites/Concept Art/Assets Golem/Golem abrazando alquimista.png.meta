@@ -198,7 +198,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Golem abrazando alquimista_0: 6531004942936415394
+      Golem abrazando alquimista_1: -4253681178880726470
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

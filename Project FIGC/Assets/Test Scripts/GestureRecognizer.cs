@@ -36,6 +36,8 @@ namespace PDollarGestureRecognizer
         private Texture2D drawAreaBackground;
         private int texturePixelCount;
 
+        [SerializeField] private MaterialPropertyLerp materialPropertyLerp;
+
 
         //GameObject for rezising the drawArea
         // public RectTransform drawAreaCanvas;
@@ -73,7 +75,6 @@ namespace PDollarGestureRecognizer
 
         void Update()
         {
-
             if (platform == RuntimePlatform.Android || platform == RuntimePlatform.IPhonePlayer)
             {
                 if (Input.touchCount > 0)
@@ -110,16 +111,12 @@ namespace PDollarGestureRecognizer
 
                     ++strokeId;
 
-                    Transform tmpGesture = Instantiate(gestureOnScreenPrefab, transform.position, transform.rotation) as Transform;
+                    Transform tmpGesture = Instantiate(gestureOnScreenPrefab, transform.position, transform.rotation);
                     currentGestureLineRenderer = tmpGesture.GetComponent<LineRenderer>();
 
                     gestureLinesRenderer.Add(currentGestureLineRenderer);
 
                     vertexCount = 0;
-
-                    // Start the coroutine when the first stroke begins
-                    StopAllCoroutines(); // Prevent multiple timers running
-                    StartCoroutine(DelayedRecognition());
                 }
 
                 if (Input.GetMouseButton(0))
@@ -129,72 +126,80 @@ namespace PDollarGestureRecognizer
                     currentGestureLineRenderer.positionCount = ++vertexCount;
                     currentGestureLineRenderer.SetPosition(vertexCount - 1, Camera.main.ScreenToWorldPoint(new Vector3(virtualKeyPosition.x, virtualKeyPosition.y, 10)));
                 }
+
+                // Start the recognition timer when the player releases the mouse button
+                if (Input.GetMouseButtonUp(0) && points.Count > 0)
+                {
+                    StopAllCoroutines(); // Prevent multiple timers running
+                    StartCoroutine(DelayedRecognition());
+                }
             }
         }
 
-//        void OnGUI()
-//        {
-//            // Scale GUI based on 1920x1080 resolution
-//            float scaleX = Screen.width / 1920f;
-//            float scaleY = Screen.height / 1080f;
 
-//            // Create background texture matching the new size
-//            drawAreaBackground = new Texture2D(drawAreaWidth, drawAreaHeight, TextureFormat.RGBA32, false);
-//            var drawAreaBackgroundPixels = new Color[drawAreaBackground.width * drawAreaBackground.height];
-//            for (int i = 0; i < drawAreaBackgroundPixels.Length; i++)
-//            {
-//                drawAreaBackgroundPixels[i] = new Color(0.8f, 0.8f, 0.8f, 0.1f); // Made slightly visible
-//            }
-//            drawAreaBackground.SetPixels(drawAreaBackgroundPixels);
-//            drawAreaBackground.Apply();
+        //        void OnGUI()
+        //        {
+        //            // Scale GUI based on 1920x1080 resolution
+        //            float scaleX = Screen.width / 1920f;
+        //            float scaleY = Screen.height / 1080f;
 
-//            var style = new GUIStyle();
-//            style.normal.background = drawAreaBackground;
+        //            // Create background texture matching the new size
+        //            drawAreaBackground = new Texture2D(drawAreaWidth, drawAreaHeight, TextureFormat.RGBA32, false);
+        //            var drawAreaBackgroundPixels = new Color[drawAreaBackground.width * drawAreaBackground.height];
+        //            for (int i = 0; i < drawAreaBackgroundPixels.Length; i++)
+        //            {
+        //                drawAreaBackgroundPixels[i] = new Color(0.8f, 0.8f, 0.8f, 0.1f); // Made slightly visible
+        //            }
+        //            drawAreaBackground.SetPixels(drawAreaBackgroundPixels);
+        //            drawAreaBackground.Apply();
 
-//            GUI.Box(drawArea, GUIContent.none, style);
+        //            var style = new GUIStyle();
+        //            style.normal.background = drawAreaBackground;
 
-//            // Scale and position UI elements relative to screen size
-//            float buttonWidth = 100 * scaleX;
-//            float buttonHeight = 30 * scaleY;
-//            float margin = 10 * scaleX;
+        //            GUI.Box(drawArea, GUIContent.none, style);
 
-//            // Recognition button - top right
-//            if (GUI.Button(new Rect(Screen.width - buttonWidth - margin, margin,
-//                buttonWidth, buttonHeight), "Recognize"))
-//            {
-//                recognized = true;
-//                Gesture candidate = new Gesture(points.ToArray());
-//                Result gestureResult = PointCloudRecognizer.Classify(candidate, trainingSet.ToArray());
-//                message = gestureResult.GestureClass + " " + gestureResult.Score;
-//            }
+        //            // Scale and position UI elements relative to screen size
+        //            float buttonWidth = 100 * scaleX;
+        //            float buttonHeight = 30 * scaleY;
+        //            float margin = 10 * scaleX;
 
-//            // Message label - bottom
-//            GUI.Label(new Rect(margin, Screen.height - 40 * scaleY,
-//                500 * scaleX, 50 * scaleY), message);
+        //            // Recognition button - top right
+        //            if (GUI.Button(new Rect(Screen.width - buttonWidth - margin, margin,
+        //                buttonWidth, buttonHeight), "Recognize"))
+        //            {
+        //                recognized = true;
+        //                Gesture candidate = new Gesture(points.ToArray());
+        //                Result gestureResult = PointCloudRecognizer.Classify(candidate, trainingSet.ToArray());
+        //                message = gestureResult.GestureClass + " " + gestureResult.Score;
+        //            }
 
-//            // Add gesture controls - right side
-//            float rightSideX = Screen.width - 200 * scaleX;
-//            float rightSideY = 150 * scaleY;
+        //            // Message label - bottom
+        //            GUI.Label(new Rect(margin, Screen.height - 40 * scaleY,
+        //                500 * scaleX, 50 * scaleY), message);
 
-//            GUI.Label(new Rect(rightSideX, rightSideY,
-//                70 * scaleX, buttonHeight), "Add as: ");
+        //            // Add gesture controls - right side
+        //            float rightSideX = Screen.width - 200 * scaleX;
+        //            float rightSideY = 150 * scaleY;
 
-//            newGestureName = GUI.TextField(new Rect(rightSideX + 70 * scaleX, rightSideY,
-//                100 * scaleX, buttonHeight), newGestureName);
+        //            GUI.Label(new Rect(rightSideX, rightSideY,
+        //                70 * scaleX, buttonHeight), "Add as: ");
 
-//            if (GUI.Button(new Rect(rightSideX + 180 * scaleX, rightSideY,
-//                50 * scaleX, buttonHeight), "Add") && points.Count > 0 && newGestureName != "")
-//            {
-//                string fileName = String.Format("{0}/{1}-{2}.xml",
-//                    Application.persistentDataPath, newGestureName, DateTime.Now.ToFileTime());
+        //            newGestureName = GUI.TextField(new Rect(rightSideX + 70 * scaleX, rightSideY,
+        //                100 * scaleX, buttonHeight), newGestureName);
 
-//#if !UNITY_WEBPLAYER
-//                GestureIO.WriteGesture(points.ToArray(), newGestureName, fileName);
-//#endif
-//                trainingSet.Add(new Gesture(points.ToArray(), newGestureName));
-//                newGestureName = "";
-//            }
-//        }
+        //            if (GUI.Button(new Rect(rightSideX + 180 * scaleX, rightSideY,
+        //                50 * scaleX, buttonHeight), "Add") && points.Count > 0 && newGestureName != "")
+        //            {
+        //                string fileName = String.Format("{0}/{1}-{2}.xml",
+        //                    Application.persistentDataPath, newGestureName, DateTime.Now.ToFileTime());
+
+        //#if !UNITY_WEBPLAYER
+        //                GestureIO.WriteGesture(points.ToArray(), newGestureName, fileName);
+        //#endif
+        //                trainingSet.Add(new Gesture(points.ToArray(), newGestureName));
+        //                newGestureName = "";
+        //            }
+        //        }
 
         public void TryRecognizeGesture()
         {
@@ -239,6 +244,7 @@ namespace PDollarGestureRecognizer
                     case "H":
                         Debug.Log("Recognized: H");
                         OnXRecognized?.Invoke();
+                        materialPropertyLerp.DoMaterialLerp();
                         gameSequenceController.PerformChoose(scene);
                         break;
 

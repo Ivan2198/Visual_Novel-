@@ -198,7 +198,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Enojado_0: -9066059897733966557
+      Enojado_1: 4698116600433039563
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

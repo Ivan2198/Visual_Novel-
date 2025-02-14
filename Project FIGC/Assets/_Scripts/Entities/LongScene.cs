@@ -7,10 +7,11 @@ public class LongScene : GameScene
 {
 
     public List<ChooseLabel> labels;
-
+    public Sprite sprite;
     [System.Serializable]
     public struct ChooseLabel
     {
         public StoryScene nextScene;
+       
     }
 }

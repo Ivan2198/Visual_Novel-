@@ -9,6 +9,7 @@ public class LongSceneController : MonoBehaviour
     [SerializeField] private GameObject longSceneGO;
 
     [Header("Paneo")]
+    [SerializeField] private Image bgImage;
     [SerializeField] private List<RectTransform> parallaxLayers; // List of images for parallax
     [SerializeField] private List<float> parallaxSpeeds; // Speed multipliers for each layer
     [SerializeField] private float scrollDuration = 10f;
@@ -18,6 +19,7 @@ public class LongSceneController : MonoBehaviour
     private float startPosition;
     private float endPosition;
     private List<Sequence> scrollSequences = new List<Sequence>();
+    private LongScene longScene;
 
     private void Update()
     {
@@ -91,6 +93,7 @@ public class LongSceneController : MonoBehaviour
 
     public void SetupChoose(LongScene scene)
     {
+        bgImage.sprite = scene.sprite;
         longSceneGO.SetActive(true);
         //CreateScrollSequence();
         Debug.Log("Game Sequence Started");

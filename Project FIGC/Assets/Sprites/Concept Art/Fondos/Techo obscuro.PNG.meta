@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Techo obscuro_0: 7581739644057816894
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -8,12 +8,11 @@ using TMPro;
 public class Speaker : ScriptableObject
 {
     public string speakerName;
+    public Color nameBubbleColor;
     public Color textColor;
     public Sprite boxtext;
     public TextAlignmentOptions aling;
     public float namePositionX;
-    public Color color;
-
 
     public List<Sprite> sprites;
     public SpriteController prefab;

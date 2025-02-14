@@ -223,7 +223,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Feliz_iluminacion_0: -4110305093300917424
+      Feliz_iluminacion_1: 2293856518584473501
+      Feliz_iluminacion_2: -284245707026166102
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -198,7 +198,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Enojado _ iluminaci\xF3n_0": -7668359951435632020
+      "Enojado _ iluminaci\xF3n_1": -9123832981251567303
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

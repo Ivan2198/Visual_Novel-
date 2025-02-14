@@ -1,0 +1,5706 @@
+fileFormatVersion: 2
+guid: 034c038d3e0269d488fda2f1baa54202
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1982055125329824813
+    second: TextBox_L_0
+  - first:
+      213: -7095196499724991190
+    second: TextBox_L_1
+  - first:
+      213: 2090861000768467605
+    second: TextBox_L_2
+  - first:
+      213: -948918490703793848
+    second: TextBox_L_3
+  - first:
+      213: 6469296585327046919
+    second: TextBox_L_4
+  - first:
+      213: -2580323487504947838
+    second: TextBox_L_5
+  - first:
+      213: -3287399149695169641
+    second: TextBox_L_6
+  - first:
+      213: -7055278950325172141
+    second: TextBox_L_7
+  - first:
+      213: -3834014423442630807
+    second: TextBox_L_8
+  - first:
+      213: 3952271572416486664
+    second: TextBox_L_9
+  - first:
+      213: 5315697241191305028
+    second: TextBox_L_10
+  - first:
+      213: 2108373221441959547
+    second: TextBox_L_11
+  - first:
+      213: 7773711126240048231
+    second: TextBox_L_12
+  - first:
+      213: 2972197541153946893
+    second: TextBox_L_13
+  - first:
+      213: 382484324037088126
+    second: TextBox_L_14
+  - first:
+      213: 3922134588772149559
+    second: TextBox_L_15
+  - first:
+      213: 3621217263584962597
+    second: TextBox_L_16
+  - first:
+      213: 1598704377057904098
+    second: TextBox_L_17
+  - first:
+      213: -3256921826814633705
+    second: TextBox_L_18
+  - first:
+      213: -3921130877149862883
+    second: TextBox_L_19
+  - first:
+      213: -8106351081743520557
+    second: TextBox_L_20
+  - first:
+      213: 8172752444788244389
+    second: TextBox_L_21
+  - first:
+      213: 1943234959062654787
+    second: TextBox_L_22
+  - first:
+      213: 3842426832116685032
+    second: TextBox_L_23
+  - first:
+      213: 633222645307787427
+    second: TextBox_L_24
+  - first:
+      213: 6840657373444482317
+    second: TextBox_L_25
+  - first:
+      213: 2919644860271343634
+    second: TextBox_L_26
+  - first:
+      213: -246047148720444013
+    second: TextBox_L_27
+  - first:
+      213: -2287034910975055343
+    second: TextBox_L_28
+  - first:
+      213: 8993614970292002624
+    second: TextBox_L_29
+  - first:
+      213: 2217955582134264529
+    second: TextBox_L_30
+  - first:
+      213: -4112983349957525413
+    second: TextBox_L_31
+  - first:
+      213: 5420275821878018995
+    second: TextBox_L_32
+  - first:
+      213: 6284727145563696355
+    second: TextBox_L_33
+  - first:
+      213: 6266016819160330629
+    second: TextBox_L_34
+  - first:
+      213: -80459131527323255
+    second: TextBox_L_35
+  - first:
+      213: 5630244660926543284
+    second: TextBox_L_36
+  - first:
+      213: 16777515036957393
+    second: TextBox_L_37
+  - first:
+      213: -8838853403541507884
+    second: TextBox_L_38
+  - first:
+      213: -2827703413212039135
+    second: TextBox_L_39
+  - first:
+      213: -8201089256574375033
+    second: TextBox_L_40
+  - first:
+      213: -6938601809741753876
+    second: TextBox_L_41
+  - first:
+      213: -617859632004660005
+    second: TextBox_L_42
+  - first:
+      213: -9110602316856815039
+    second: TextBox_L_43
+  - first:
+      213: -2775518608736531761
+    second: TextBox_L_44
+  - first:
+      213: 3026675214495785369
+    second: TextBox_L_45
+  - first:
+      213: 5698022873813590040
+    second: TextBox_L_46
+  - first:
+      213: -3804805613748997467
+    second: TextBox_L_47
+  - first:
+      213: 1970404438737874649
+    second: TextBox_L_48
+  - first:
+      213: 7812771463512565649
+    second: TextBox_L_49
+  - first:
+      213: 5782293162474350327
+    second: TextBox_L_50
+  - first:
+      213: -2778595956037544241
+    second: TextBox_L_51
+  - first:
+      213: -7744633270161167428
+    second: TextBox_L_52
+  - first:
+      213: 2061774974426451416
+    second: TextBox_L_53
+  - first:
+      213: 8845844663056444230
+    second: TextBox_L_54
+  - first:
+      213: 5168989296786895238
+    second: TextBox_L_55
+  - first:
+      213: 8590326038918118999
+    second: TextBox_L_56
+  - first:
+      213: 8829360816527105626
+    second: TextBox_L_57
+  - first:
+      213: 2655891452009662171
+    second: TextBox_L_58
+  - first:
+      213: 8294577848051456869
+    second: TextBox_L_59
+  - first:
+      213: 6279156792305853473
+    second: TextBox_L_60
+  - first:
+      213: 2378168261455696855
+    second: TextBox_L_61
+  - first:
+      213: -6446127149686494449
+    second: TextBox_L_62
+  - first:
+      213: -7246023873087556807
+    second: TextBox_L_63
+  - first:
+      213: 8195870789030543875
+    second: TextBox_L_64
+  - first:
+      213: 2237740374889791960
+    second: TextBox_L_65
+  - first:
+      213: -8331741396230014604
+    second: TextBox_L_66
+  - first:
+      213: 6328284548237713302
+    second: TextBox_L_67
+  - first:
+      213: -5682232619782527596
+    second: TextBox_L_68
+  - first:
+      213: 5182970082804444361
+    second: TextBox_L_69
+  - first:
+      213: 1230673215871665452
+    second: TextBox_L_70
+  - first:
+      213: 4960868965790420782
+    second: TextBox_L_71
+  - first:
+      213: -7392589568242617704
+    second: TextBox_L_72
+  - first:
+      213: 1030023510112494731
+    second: TextBox_L_73
+  - first:
+      213: -7800608037111248982
+    second: TextBox_L_74
+  - first:
+      213: -7866264355313499554
+    second: TextBox_L_75
+  - first:
+      213: -3462951558630309105
+    second: TextBox_L_76
+  - first:
+      213: -5840681337748583843
+    second: TextBox_L_77
+  - first:
+      213: -5989480211427447879
+    second: TextBox_L_78
+  - first:
+      213: 3396611468264262350
+    second: TextBox_L_79
+  - first:
+      213: -5533956637275282719
+    second: TextBox_L_80
+  - first:
+      213: 1976102638614247120
+    second: TextBox_L_81
+  - first:
+      213: 8388062206617772076
+    second: TextBox_L_82
+  - first:
+      213: 6388613575535216970
+    second: TextBox_L_83
+  - first:
+      213: -2979463302532744155
+    second: TextBox_L_84
+  - first:
+      213: -7568117467683770574
+    second: TextBox_L_85
+  - first:
+      213: -8533552682789208511
+    second: TextBox_L_86
+  - first:
+      213: -7562463784787659501
+    second: TextBox_L_87
+  - first:
+      213: 9083712719680233985
+    second: TextBox_L_88
+  - first:
+      213: 3953058890137220655
+    second: TextBox_L_89
+  - first:
+      213: -3751701937246491385
+    second: TextBox_L_90
+  - first:
+      213: -8298733672757704729
+    second: TextBox_L_91
+  - first:
+      213: 4653880789748490135
+    second: TextBox_L_92
+  - first:
+      213: -8808361421496648593
+    second: TextBox_L_93
+  - first:
+      213: -489361393994530418
+    second: TextBox_L_94
+  - first:
+      213: -2029652551422254460
+    second: TextBox_L_95
+  - first:
+      213: -4979197016916266605
+    second: TextBox_L_96
+  - first:
+      213: 2776016630254634036
+    second: TextBox_L_97
+  - first:
+      213: -3831917688830494842
+    second: TextBox_L_98
+  - first:
+      213: 5759759084930566615
+    second: TextBox_L_99
+  - first:
+      213: 2824598441561807787
+    second: TextBox_L_100
+  - first:
+      213: 5358900255625011314
+    second: TextBox_L_101
+  - first:
+      213: -5898114633996012475
+    second: TextBox_L_102
+  - first:
+      213: -2800601089798719667
+    second: TextBox_L_103
+  - first:
+      213: 4519406222324474428
+    second: TextBox_L_104
+  - first:
+      213: 2473762198862891193
+    second: TextBox_L_105
+  - first:
+      213: 761973051308014172
+    second: TextBox_L_106
+  - first:
+      213: -2395521958150387387
+    second: TextBox_L_107
+  - first:
+      213: 6844727703296074229
+    second: TextBox_L_108
+  - first:
+      213: -4940337610872631671
+    second: TextBox_L_109
+  - first:
+      213: 8642882307592173671
+    second: TextBox_L_110
+  - first:
+      213: 661318983497269956
+    second: TextBox_L_111
+  - first:
+      213: 6051083343706562067
+    second: TextBox_L_112
+  - first:
+      213: 3188384045759398565
+    second: TextBox_L_113
+  - first:
+      213: -1782339706569190971
+    second: TextBox_L_114
+  - first:
+      213: -9209264220642531380
+    second: TextBox_L_115
+  - first:
+      213: -2580029603990858305
+    second: TextBox_L_116
+  - first:
+      213: 460411605644877976
+    second: TextBox_L_117
+  - first:
+      213: -5605535843519371585
+    second: TextBox_L_118
+  - first:
+      213: -411142726488925855
+    second: TextBox_L_119
+  - first:
+      213: -3461930627173149473
+    second: TextBox_L_120
+  - first:
+      213: 8239069369223329776
+    second: TextBox_L_121
+  - first:
+      213: -1758572118233995969
+    second: TextBox_L_122
+  - first:
+      213: 2135248194071273222
+    second: TextBox_L_123
+  - first:
+      213: 2213820233067877498
+    second: TextBox_L_124
+  - first:
+      213: -5709884884963457097
+    second: TextBox_L_125
+  - first:
+      213: -227047109165212294
+    second: TextBox_L_126
+  - first:
+      213: 7762126579449540945
+    second: TextBox_L_127
+  - first:
+      213: -3630336040198277305
+    second: TextBox_L_128
+  - first:
+      213: 1526913397105995670
+    second: TextBox_L_129
+  - first:
+      213: -2659605709325967558
+    second: TextBox_L_130
+  - first:
+      213: -7405279474131755960
+    second: TextBox_L_131
+  - first:
+      213: 2679459630962598084
+    second: TextBox_L_132
+  - first:
+      213: 7684649716870305372
+    second: TextBox_L_133
+  - first:
+      213: 3390647480758801941
+    second: TextBox_L_134
+  - first:
+      213: 6809290379014731408
+    second: TextBox_L_135
+  - first:
+      213: -77756384930242540
+    second: TextBox_L_136
+  - first:
+      213: 4286391243396300451
+    second: TextBox_L_137
+  - first:
+      213: -5506125538963247933
+    second: TextBox_L_138
+  - first:
+      213: -4088292593666373149
+    second: TextBox_L_139
+  - first:
+      213: -1434245208410160378
+    second: TextBox_L_140
+  - first:
+      213: -8467116121313958543
+    second: TextBox_L_141
+  - first:
+      213: -6622377487927166832
+    second: TextBox_L_142
+  - first:
+      213: 4971038197869568903
+    second: TextBox_L_143
+  - first:
+      213: -2028053933973101667
+    second: TextBox_L_144
+  - first:
+      213: -4033857737478583812
+    second: TextBox_L_145
+  - first:
+      213: 6437939249504103693
+    second: TextBox_L_146
+  - first:
+      213: 5106732285642599939
+    second: TextBox_L_147
+  - first:
+      213: 5015965885812678077
+    second: TextBox_L_148
+  - first:
+      213: -8549489390246637592
+    second: TextBox_L_149
+  - first:
+      213: -3918269938005301351
+    second: TextBox_L_150
+  - first:
+      213: -8916409959238284706
+    second: TextBox_L_151
+  - first:
+      213: 4541110941415607715
+    second: TextBox_L_152
+  - first:
+      213: -257123347787315273
+    second: TextBox_L_153
+  - first:
+      213: -1842164276018007696
+    second: TextBox_L_154
+  - first:
+      213: -1291669565590638995
+    second: TextBox_L_155
+  - first:
+      213: 4701322224953177626
+    second: TextBox_L_156
+  - first:
+      213: 4671337291458727874
+    second: TextBox_L_157
+  - first:
+      213: 1508716434293419258
+    second: TextBox_L_158
+  - first:
+      213: -1610310245344452367
+    second: TextBox_L_159
+  - first:
+      213: -2681144226124209879
+    second: TextBox_L_160
+  - first:
+      213: -775616161719483033
+    second: TextBox_L_161
+  - first:
+      213: 2150393626609846305
+    second: TextBox_L_162
+  - first:
+      213: -2827912630798062455
+    second: TextBox_L_163
+  - first:
+      213: 2050963411055151873
+    second: TextBox_L_164
+  - first:
+      213: -8291765034325440536
+    second: TextBox_L_165
+  - first:
+      213: -2223741449275950859
+    second: TextBox_L_166
+  - first:
+      213: 265685327212562989
+    second: TextBox_L_167
+  - first:
+      213: -6549380530697071329
+    second: TextBox_L_168
+  - first:
+      213: 5771176363977162723
+    second: TextBox_L_169
+  - first:
+      213: -2877517949080315553
+    second: TextBox_L_170
+  - first:
+      213: 2195011578875413753
+    second: TextBox_L_171
+  - first:
+      213: 776891059735698887
+    second: TextBox_L_172
+  - first:
+      213: -5968719743974885048
+    second: TextBox_L_173
+  - first:
+      213: -464157523400060351
+    second: TextBox_L_174
+  - first:
+      213: 8957444992811974444
+    second: TextBox_L_175
+  - first:
+      213: 6177444403235797532
+    second: TextBox_L_176
+  - first:
+      213: -3088427487475402239
+    second: TextBox_L_177
+  - first:
+      213: 2926070275498996364
+    second: TextBox_L_178
+  - first:
+      213: -4967074465591778718
+    second: TextBox_L_179
+  - first:
+      213: 8491146293347626229
+    second: TextBox_L_180
+  - first:
+      213: 5819472818803784967
+    second: TextBox_L_181
+  - first:
+      213: -8828716535162935402
+    second: TextBox_L_182
+  - first:
+      213: -5466436412593549724
+    second: TextBox_L_183
+  - first:
+      213: 1469012448073674821
+    second: TextBox_L_184
+  - first:
+      213: -5469073595619624031
+    second: TextBox_L_185
+  - first:
+      213: 1531013673604783569
+    second: TextBox_L_186
+  - first:
+      213: -3223019979481588532
+    second: TextBox_L_187
+  - first:
+      213: -4581486604550699513
+    second: TextBox_L_188
+  - first:
+      213: 1421699854679613956
+    second: TextBox_L_189
+  - first:
+      213: 2181730023895518556
+    second: TextBox_L_190
+  - first:
+      213: -5781537865060550704
+    second: TextBox_L_191
+  - first:
+      213: -2345111188986616372
+    second: TextBox_L_192
+  - first:
+      213: 4814847767407182760
+    second: TextBox_L_193
+  - first:
+      213: -3998276083464598655
+    second: TextBox_L_194
+  - first:
+      213: 4907869997358609248
+    second: TextBox_L_195
+  - first:
+      213: -4026182785636559024
+    second: TextBox_L_196
+  - first:
+      213: -4618585967598831811
+    second: TextBox_L_197
+  - first:
+      213: -3158438400668081268
+    second: TextBox_L_198
+  - first:
+      213: 1485209714038783196
+    second: TextBox_L_199
+  - first:
+      213: 3569997503226743296
+    second: TextBox_L_200
+  - first:
+      213: -4991116248747745666
+    second: TextBox_L_201
+  - first:
+      213: -9109089544250039386
+    second: TextBox_L_202
+  - first:
+      213: 8915132534210574556
+    second: TextBox_L_203
+  - first:
+      213: 435775072425725299
+    second: TextBox_L_204
+  - first:
+      213: -6985985575939381956
+    second: TextBox_L_205
+  - first:
+      213: -2141353592694687879
+    second: TextBox_L_206
+  - first:
+      213: 3345880311093624016
+    second: TextBox_L_207
+  - first:
+      213: 3787361762581398247
+    second: TextBox_L_208
+  - first:
+      213: -589154006488945514
+    second: TextBox_L_209
+  - first:
+      213: -1450452368065355479
+    second: TextBox_L_210
+  - first:
+      213: 3167740246271146917
+    second: TextBox_L_211
+  - first:
+      213: -5370410451831194927
+    second: TextBox_L_212
+  - first:
+      213: -789971502111854430
+    second: TextBox_L_213
+  - first:
+      213: -4053007067658494696
+    second: TextBox_L_214
+  - first:
+      213: 2462189828776989191
+    second: TextBox_L_215
+  - first:
+      213: 5184245824244316359
+    second: TextBox_L_216
+  - first:
+      213: 5799615573329849538
+    second: TextBox_L_217
+  - first:
+      213: -4526587218614419310
+    second: TextBox_L_218
+  - first:
+      213: -7151321612331769523
+    second: TextBox_L_219
+  - first:
+      213: 7797150385097643162
+    second: TextBox_L_220
+  - first:
+      213: -4990507202761821603
+    second: TextBox_L_221
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TextBox_L_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2349
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2cc68692aca18b10800000000000000
+      internalID: 1982055125329824813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_1
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 935
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a250c4e106cc88d90800000000000000
+      internalID: -7095196499724991190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_2
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 930
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592b589900b340d10800000000000000
+      internalID: 2090861000768467605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_3
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 933
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841fcc809a3c4d2f0800000000000000
+      internalID: -948918490703793848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_4
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 920
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701f013f7fe87c950800000000000000
+      internalID: 6469296585327046919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_5
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 915
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285aba19579d03cd0800000000000000
+      internalID: -2580323487504947838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_6
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 910
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b8f7704efc062d0800000000000000
+      internalID: -3287399149695169641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_7
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 703
+        width: 14
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358c396dc2d961e90800000000000000
+      internalID: -7055278950325172141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_8
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 672
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9675af20238dacac0800000000000000
+      internalID: -3834014423442630807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_9
+      rect:
+        serializedVersion: 2
+        x: 2318
+        y: 686
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d52c91e0a49d630800000000000000
+      internalID: 3952271572416486664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_10
+      rect:
+        serializedVersion: 2
+        x: 2330
+        y: 678
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f4bb22a7625c940800000000000000
+      internalID: 5315697241191305028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_11
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 690
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b767ef53642724d10800000000000000
+      internalID: 2108373221441959547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_12
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 646
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7643a0a1515c1eb60800000000000000
+      internalID: 7773711126240048231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_13
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 637
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d35c29aed5f3920800000000000000
+      internalID: 2972197541153946893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_14
+      rect:
+        serializedVersion: 2
+        x: 2318
+        y: 636
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73d26a577bde4500800000000000000
+      internalID: 382484324037088126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_15
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 623
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739690dc0a83e6630800000000000000
+      internalID: 3922134588772149559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_16
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 607
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5286e7a4ae5214230800000000000000
+      internalID: 3621217263584962597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_17
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 581
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5066f192dbf2610800000000000000
+      internalID: 1598704377057904098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_18
+      rect:
+        serializedVersion: 2
+        x: 2341
+        y: 605
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7195f7bbad61dc2d0800000000000000
+      internalID: -3256921826814633705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_19
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 568
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14aaa50e385599c0800000000000000
+      internalID: -3921130877149862883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_20
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 581
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dce214f3a4708f80800000000000000
+      internalID: -8106351081743520557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_21
+      rect:
+        serializedVersion: 2
+        x: 2315
+        y: 543
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5affec42c037b6170800000000000000
+      internalID: 8172752444788244389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_22
+      rect:
+        serializedVersion: 2
+        x: 2308
+        y: 512
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34fdc0a46e1c7fa10800000000000000
+      internalID: 1943234959062654787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_23
+      rect:
+        serializedVersion: 2
+        x: 2317
+        y: 463
+        width: 14
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e89eb388da035530800000000000000
+      internalID: 3842426832116685032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_24
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 455
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8cd4514a8a9c800800000000000000
+      internalID: 633222645307787427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_25
+      rect:
+        serializedVersion: 2
+        x: 2318
+        y: 430
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05a05643a5eeee50800000000000000
+      internalID: 6840657373444482317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_26
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 424
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218b4ce0889a48820800000000000000
+      internalID: 2919644860271343634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_27
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 424
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d258efb6dd59cf0800000000000000
+      internalID: -246047148720444013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_28
+      rect:
+        serializedVersion: 2
+        x: 2318
+        y: 417
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a2a6e9dd1d240e0800000000000000
+      internalID: -2287034910975055343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_29
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 411
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04fd3ee4a2dbfcc70800000000000000
+      internalID: 8993614970292002624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_30
+      rect:
+        serializedVersion: 2
+        x: 2333
+        y: 412
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d225b8c9d2c7ce10800000000000000
+      internalID: 2217955582134264529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_31
+      rect:
+        serializedVersion: 2
+        x: 2314
+        y: 391
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b508faa4f6fbbe6c0800000000000000
+      internalID: -4112983349957525413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_32
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 404
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b38da36420b83b40800000000000000
+      internalID: 5420275821878018995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_33
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 309
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec249d7a06d73750800000000000000
+      internalID: 6284727145563696355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_34
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 298
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581bca6291d55f650800000000000000
+      internalID: 6266016819160330629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_35
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 229
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981a06e98d622eef0800000000000000
+      internalID: -80459131527323255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_36
+      rect:
+        serializedVersion: 2
+        x: 2330
+        y: 249
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5f01550b5a22e40800000000000000
+      internalID: 5630244660926543284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_37
+      rect:
+        serializedVersion: 2
+        x: 2343
+        y: 252
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1daddff9f0b9b3000800000000000000
+      internalID: 16777515036957393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_38
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 226
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0f724e8a5165580800000000000000
+      internalID: -8838853403541507884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_39
+      rect:
+        serializedVersion: 2
+        x: 2330
+        y: 207
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128365d3abaf1c8d0800000000000000
+      internalID: -2827703413212039135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_40
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 226
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78bac9ab5c0ef2e80800000000000000
+      internalID: -8201089256574375033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_41
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 180
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1d5749a6225bf90800000000000000
+      internalID: -6938601809741753876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_42
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 198
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd40f4130fbec67f0800000000000000
+      internalID: -617859632004660005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_43
+      rect:
+        serializedVersion: 2
+        x: 2343
+        y: 203
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14216ed7673a09180800000000000000
+      internalID: -9110602316856815039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_44
+      rect:
+        serializedVersion: 2
+        x: 2333
+        y: 177
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcac5cad7806b79d0800000000000000
+      internalID: -2775518608736531761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_45
+      rect:
+        serializedVersion: 2
+        x: 2343
+        y: 192
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99120825219e00a20800000000000000
+      internalID: 3026675214495785369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_46
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 168
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810a5b34d91731f40800000000000000
+      internalID: 5698022873813590040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_47
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 158
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a23419f37d923bc0800000000000000
+      internalID: -3804805613748997467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_48
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 39
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dee2dab568485b10800000000000000
+      internalID: 1970404438737874649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_49
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 36
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197a9f1904a8c6c60800000000000000
+      internalID: 7812771463512565649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_50
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 39
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f62470def4de3050800000000000000
+      internalID: 5782293162474350327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_51
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 39
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc69b0a13b17079d0800000000000000
+      internalID: -2778595956037544241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_52
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 42
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb2f58d219858490800000000000000
+      internalID: -7744633270161167428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_53
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 42
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd8a7d5a65ec9c10800000000000000
+      internalID: 2061774974426451416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_54
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 39
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ba3cf8ad0c2ca70800000000000000
+      internalID: 8845844663056444230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_55
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 38
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68177c20160fbb740800000000000000
+      internalID: 5168989296786895238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_56
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 41
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75eb086d408f63770800000000000000
+      internalID: 8590326038918118999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_57
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 34
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ed9d6f1e0388a70800000000000000
+      internalID: 8829360816527105626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_58
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 44
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6480f343f9bd420800000000000000
+      internalID: 2655891452009662171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_59
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 31
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b5ee23b924c1370800000000000000
+      internalID: 8294577848051456869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_60
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 46
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1242f5e85db042750800000000000000
+      internalID: 6279156792305853473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_61
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 23
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3dc280f63f00120800000000000000
+      internalID: 2378168261455696855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_62
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 41
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b6fe9a281ca86a0800000000000000
+      internalID: -6446127149686494449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_63
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 39
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933bd92bda3f07b90800000000000000
+      internalID: -7246023873087556807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_64
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 41
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3028a2d1f059db170800000000000000
+      internalID: 8195870789030543875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_65
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 14
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d10bd0d30d0e0f10800000000000000
+      internalID: 2237740374889791960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_66
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 46
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479fa45f755bf5c80800000000000000
+      internalID: -8331741396230014604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_67
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 44
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f5d47944592d750800000000000000
+      internalID: 6328284548237713302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_68
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 44
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495a9beb987a421b0800000000000000
+      internalID: -5682232619782527596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_69
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 39
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc290b64db9de740800000000000000
+      internalID: 5182970082804444361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_70
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 34
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c254e9af4ca341110800000000000000
+      internalID: 1230673215871665452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_71
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 41
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f82336a0c88d440800000000000000
+      internalID: 4960868965790420782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_72
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 37
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892f3ae84fe386990800000000000000
+      internalID: -7392589568242617704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_73
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 32
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b846e86dce06b4e00800000000000000
+      internalID: 1030023510112494731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_74
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 41
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa74de3d15caeb390800000000000000
+      internalID: -7800608037111248982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_75
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52c8300f3a65d290800000000000000
+      internalID: -7866264355313499554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_76
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 40
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f038479a7ef11ffc0800000000000000
+      internalID: -3462951558630309105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_77
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 38
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a0e31c44bb1fea0800000000000000
+      internalID: -5840681337748583843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_78
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 42
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bba2a83b7711eca0800000000000000
+      internalID: -5989480211427447879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_79
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 36
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecac8e56220332f20800000000000000
+      internalID: 3396611468264262350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_80
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 38
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2aac032cf6333b0800000000000000
+      internalID: -5533956637275282719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_81
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 43
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6705641e68c6b10800000000000000
+      internalID: 1976102638614247120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_82
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 39
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20e4539222686470800000000000000
+      internalID: 8388062206617772076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_83
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 41
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49c309d23ae8a850800000000000000
+      internalID: 6388613575535216970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_84
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 39
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c393789e1d6a6d0800000000000000
+      internalID: -2979463302532744155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_85
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 34
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fa740c245a8f690800000000000000
+      internalID: -7568117467683770574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_86
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e74463c0bb29980800000000000000
+      internalID: -8533552682789208511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_87
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 36
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315b9f0614bbc0790800000000000000
+      internalID: -7562463784787659501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_88
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102ec3a4794df0e70800000000000000
+      internalID: 9083712719680233985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_89
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 38
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2634dacd161cd630800000000000000
+      internalID: 3953058890137220655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_90
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 36
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d274727f64febc0800000000000000
+      internalID: -3751701937246491385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_91
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 31
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e744b571b9f4dc80800000000000000
+      internalID: -8298733672757704729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_92
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 29
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f19f3cbe7e59040800000000000000
+      internalID: 4653880789748490135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_93
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 39
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6cff62b4f962c580800000000000000
+      internalID: -8808361421496648593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_94
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 33
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e818a28a7607539f0800000000000000
+      internalID: -489361393994530418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_95
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 15
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482e20f02c935d3e0800000000000000
+      internalID: -2029652551422254460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_96
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 36
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391750ca1b656eab0800000000000000
+      internalID: -4979197016916266605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_97
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 23
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43487e0da64668620800000000000000
+      internalID: 2776016630254634036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_98
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 33
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687f8b41a2b42dac0800000000000000
+      internalID: -3831917688830494842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_99
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 36
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d98d190f56ceef40800000000000000
+      internalID: 5759759084930566615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_100
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 32
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: babd966315df23720800000000000000
+      internalID: 2824598441561807787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_101
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 37
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270674bc363ae5a40800000000000000
+      internalID: 5358900255625011314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_102
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 37
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544722c6dffa52ea0800000000000000
+      internalID: -5898114633996012475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_103
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 36
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47b9f4a5244229d0800000000000000
+      internalID: -2800601089798719667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_104
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 23
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32275da30828be30800000000000000
+      internalID: 4519406222324474428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_105
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 29
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b803020d91945220800000000000000
+      internalID: 2473762198862891193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_106
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 26
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a72abf372139a00800000000000000
+      internalID: 761973051308014172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_107
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 21
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5494cc8987561ced0800000000000000
+      internalID: -2395521958150387387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_108
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1ec3bc49b5dfe50800000000000000
+      internalID: 6844727703296074229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_109
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 32
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e4f613e15607bb0800000000000000
+      internalID: -4940337610872631671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_110
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 21
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7683a83baafa1f770800000000000000
+      internalID: 8642882307592173671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_111
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 31
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2c3969c1a7d2900800000000000000
+      internalID: 661318983497269956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_112
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 26
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e99e7bd34c9f350800000000000000
+      internalID: 6051083343706562067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_113
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 26
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a20307956a6f3c20800000000000000
+      internalID: 3188384045759398565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_114
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 28
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c19ed8ea7bd347e0800000000000000
+      internalID: -1782339706569190971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_115
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 31
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc723edebfe123080800000000000000
+      internalID: -9209264220642531380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_116
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 24
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb51228aeb4e13cd0800000000000000
+      internalID: -2580029603990858305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_117
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 26
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8902eec7ae5b36600800000000000000
+      internalID: 460411605644877976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_118
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 21
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6ee4789d22532b0800000000000000
+      internalID: -5605535843519371585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_119
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 26
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16954ab5ed35b4af0800000000000000
+      internalID: -411142726488925855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_120
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 23
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd49c4acf60c4ffc0800000000000000
+      internalID: -3461930627173149473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_121
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 30
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7bb5850fd075270800000000000000
+      internalID: 8239069369223329776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_122
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 29
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35a1ccc9fb4897e0800000000000000
+      internalID: -1758572118233995969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_123
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 25
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f99e26bece1ad10800000000000000
+      internalID: 2135248194071273222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_124
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 24
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74559cc5c119be10800000000000000
+      internalID: 2213820233067877498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_125
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 23
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7816b03f962c0b0800000000000000
+      internalID: -5709884884963457097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_126
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 24
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d9dee6bdd59dcf0800000000000000
+      internalID: -227047109165212294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_127
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 24
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15135bd9ffc98bb60800000000000000
+      internalID: 7762126579449540945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_128
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 29
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747fea41b947e9dc0800000000000000
+      internalID: -3630336040198277305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_129
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 27
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69fa94d05afa03510800000000000000
+      internalID: 1526913397105995670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_130
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 21
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f5605d2be271bd0800000000000000
+      internalID: -2659605709325967558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_131
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 31
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c92e99d892b3990800000000000000
+      internalID: -7405279474131755960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_132
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 23
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c06685865a5f2520800000000000000
+      internalID: 2679459630962598084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_133
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 6
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c565c55d33c55aa60800000000000000
+      internalID: 7684649716870305372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_134
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 24
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51693395beffd0f20800000000000000
+      internalID: 3390647480758801941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_135
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 21
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09678a5c5857f7e50800000000000000
+      internalID: 6809290379014731408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_136
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 31
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410e639daf0cbeef0800000000000000
+      internalID: -77756384930242540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_137
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 31
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae3bf620225c7b30800000000000000
+      internalID: 4286391243396300451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_138
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 30
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cca369beff4693b0800000000000000
+      internalID: -5506125538963247933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_139
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 26
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9c7a8fb877347c0800000000000000
+      internalID: -4088292593666373149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_140
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 14
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60308e7f499881ce0800000000000000
+      internalID: -1434245208410160378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_141
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17529159fb2ce7a80800000000000000
+      internalID: -8467116121313958543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_142
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 13
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098be87f2c69814a0800000000000000
+      internalID: -6622377487927166832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_143
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 16
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783e9ec37ecacf440800000000000000
+      internalID: 4971038197869568903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_144
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 18
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93233031b7ead3e0800000000000000
+      internalID: -2028053933973101667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_145
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 18
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9c02392cbd408c0800000000000000
+      internalID: -4033857737478583812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_146
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 16
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0dac3443a7285950800000000000000
+      internalID: 6437939249504103693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_147
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 15
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30eeeb805f1ced640800000000000000
+      internalID: 5106732285642599939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_148
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 19
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd975db56a4c9540800000000000000
+      internalID: 5015965885812678077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_149
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 14
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efc06b52bc1a5980800000000000000
+      internalID: -8549489390246637592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_150
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 8
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9972a1350428f99c0800000000000000
+      internalID: -3918269938005301351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_151
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 11
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ac8db126c824480800000000000000
+      internalID: -8916409959238284706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_152
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 9
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad87b46754450f30800000000000000
+      internalID: 4541110941415607715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_153
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 18
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b78daf6da38e6cf0800000000000000
+      internalID: -257123347787315273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_154
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 16
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0713806e9515f66e0800000000000000
+      internalID: -1842164276018007696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_155
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 11
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e69c7af51131ee0800000000000000
+      internalID: -1291669565590638995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_156
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 18
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16bbf8a7a37e3140800000000000000
+      internalID: 4701322224953177626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_157
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 8
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cfce6b448ce3d040800000000000000
+      internalID: 4671337291458727874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_158
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 23
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc6adc7a9900f410800000000000000
+      internalID: 1508716434293419258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_159
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 18
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f062181d5707a9e0800000000000000
+      internalID: -1610310245344452367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_160
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 16
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921e64a1889aacad0800000000000000
+      internalID: -2681144226124209879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_161
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 15
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76588a6d5357c35f0800000000000000
+      internalID: -775616161719483033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_162
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 0
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12808513c9bb7dd10800000000000000
+      internalID: 2150393626609846305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_163
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 23
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ce079f17c31c8d0800000000000000
+      internalID: -2827912630798062455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_164
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 19
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b044b1b5c767c10800000000000000
+      internalID: 2050963411055151873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_165
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 2
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7070802abbdec80800000000000000
+      internalID: -8291765034325440536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_166
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 15
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8389b0feea321e0800000000000000
+      internalID: -2223741449275950859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_167
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 16
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ac98eb567efa300800000000000000
+      internalID: 265685327212562989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_168
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 18
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1511f08b1deb15a0800000000000000
+      internalID: -6549380530697071329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_169
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 11
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef3df67356571050800000000000000
+      internalID: 5771176363977162723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_170
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 10
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f59d14acba00118d0800000000000000
+      internalID: -2877517949080315553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_171
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 6
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f40dbcb66f367e10800000000000000
+      internalID: 2195011578875413753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_172
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 0
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd19bc7d4218ca00800000000000000
+      internalID: 776891059735698887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_173
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 39
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84934883409da2da0800000000000000
+      internalID: -5968719743974885048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_174
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 10
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1421ae1113bfe89f0800000000000000
+      internalID: -464157523400060351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_175
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 13
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2fb8ab23cc3f4c70800000000000000
+      internalID: 8957444992811974444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_176
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 8
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a389a84f0bab550800000000000000
+      internalID: 6177444403235797532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_177
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 0
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10af9763093b325d0800000000000000
+      internalID: -3088427487475402239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_178
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 0
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8272fe996d7b9820800000000000000
+      internalID: 2926070275498996364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_179
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 10
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2622d791718611bb0800000000000000
+      internalID: -4967074465591778718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_180
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 11
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc2cd6d09c96d570800000000000000
+      internalID: 8491146293347626229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_181
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 5
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d37d022bbe2c050800000000000000
+      internalID: 5819472818803784967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_182
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697eefa76191a7580800000000000000
+      internalID: -8828716535162935402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_183
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 0
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ec9109b015324b0800000000000000
+      internalID: -5466436412593549724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_184
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 9
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540fe02d90bf26410800000000000000
+      internalID: 1469012448073674821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_185
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 5
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1abbf9a8a82f914b0800000000000000
+      internalID: -5469073595619624031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_186
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 9
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd9a7113d04f3510800000000000000
+      internalID: 1531013673604783569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_187
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc530ba7688543d0800000000000000
+      internalID: -3223019979481588532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_188
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 3
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7068b88f43a4b60c0800000000000000
+      internalID: -4581486604550699513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_189
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 14
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402276f3c74eab310800000000000000
+      internalID: 1421699854679613956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_190
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5dc81eb5ef074e10800000000000000
+      internalID: 2181730023895518556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_191
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7789191f9d3cfa0800000000000000
+      internalID: -5781537865060550704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_192
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 5
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5a8ad6ccd747fd0800000000000000
+      internalID: -2345111188986616372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_193
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a343e7c886c1d240800000000000000
+      internalID: 4814847767407182760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_194
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 0
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b072bf5154388c0800000000000000
+      internalID: -3998276083464598655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_195
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 5
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0637b5472c14c1440800000000000000
+      internalID: 4907869997358609248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_196
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 0
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057175d86102028c0800000000000000
+      internalID: -4026182785636559024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_197
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 3
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37faa4688c77efb0800000000000000
+      internalID: -4618585967598831811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_198
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 0
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83e93b3209fa24d0800000000000000
+      internalID: -3158438400668081268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_199
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 0
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdcbd3ead568c9410800000000000000
+      internalID: 1485209714038783196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_200
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 0
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a8cd480dd2b8130800000000000000
+      internalID: 3569997503226743296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_201
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 0
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ed5b0473efbbab0800000000000000
+      internalID: -4991116248747745666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_202
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 4
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a360cf4253069180800000000000000
+      internalID: -9109089544250039386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_203
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 0
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd836233ec9e8bb70800000000000000
+      internalID: 8915132534210574556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_204
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 0
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37dc7e99e1f2c0600800000000000000
+      internalID: 435775072425725299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_205
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 0
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35612cc12bcc0f90800000000000000
+      internalID: -6985985575939381956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_206
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 5
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9773de8b0426842e0800000000000000
+      internalID: -2141353592694687879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_207
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 5
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc75bb6a64fe6e20800000000000000
+      internalID: 3345880311093624016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_208
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 0
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2cf8ee4796f8430800000000000000
+      internalID: 3787361762581398247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_209
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c6a357d87e2d7f0800000000000000
+      internalID: -589154006488945514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_210
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 5
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92127dd8145fedbe0800000000000000
+      internalID: -1450452368065355479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_211
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 0
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab33b778f216fb20800000000000000
+      internalID: 3167740246271146917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_212
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 0
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da7e80d5287875b0800000000000000
+      internalID: -5370410451831194927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_213
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 0
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0f0f1ba157905f0800000000000000
+      internalID: -789971502111854430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_214
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 3
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d5114bb83d0c7c0800000000000000
+      internalID: -4053007067658494696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_215
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 0
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70215d1aa947b2220800000000000000
+      internalID: 2462189828776989191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_216
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 0
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8726e1c1422f740800000000000000
+      internalID: 5184245824244316359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_217
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 5
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc2622e2af5c7050800000000000000
+      internalID: 5799615573329849538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_218
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 0
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2900aa558e45e21c0800000000000000
+      internalID: -4526587218614419310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_219
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41246602e661cc90800000000000000
+      internalID: -7151321612331769523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_220
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 0
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a949b04d6fa053c60800000000000000
+      internalID: 7797150385097643162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TextBox_L_221
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 0
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d527a52d3282ebab0800000000000000
+      internalID: -4990507202761821603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

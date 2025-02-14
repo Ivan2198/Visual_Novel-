@@ -198,7 +198,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sorpresa_iluminacion_0: 4773407419171849465
+      Sorpresa_iluminacion_1: 6626330100100076236
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

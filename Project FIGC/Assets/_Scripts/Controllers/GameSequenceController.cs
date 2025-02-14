@@ -1,12 +1,16 @@
+using System.Collections;
 using UnityEngine;
 
 public class GameSequenceController : MonoBehaviour
 {
     public GameController gameController;
     [SerializeField] private GameObject gameSequenceGO;
+    [SerializeField] private GameObject gameSequenceCanvas;
+
+    [SerializeField] private Animator animator;
 
     [Header("Timer")]
-    public float timeRemaining = 5f;
+    public float timeRemaining = 2f;
     private bool isTimerRunning = false;
 
     public enum GameStates
@@ -38,10 +42,9 @@ public class GameSequenceController : MonoBehaviour
         {
             case GameStates.SHOW:
                 Debug.Log("Game state: SHOW");
-                if (!isTimerRunning) // Start timer only if it's not running
-                {
-                    StartTimer();
-                }
+                gameSequenceCanvas.SetActive(true);
+                animator.CrossFade("Show", 0, 0);
+                state = GameStates.PLAY;
                 break;
             case GameStates.PLAY:
                 Debug.Log("Game state: PLAY");
@@ -62,9 +65,8 @@ public class GameSequenceController : MonoBehaviour
 
     public void PerformChoose(StoryScene scene)
     {
+        StartCoroutine(ChangeScene());
         gameController.PlayScene(scene);
-        gameSequenceGO.SetActive(false);
-        state = GameStates.HIDE;
     }
 
     public void StartTimer()
@@ -76,6 +78,13 @@ public class GameSequenceController : MonoBehaviour
     private void TimerCompleted()
     {
         Debug.Log("Timer Completed!");
-        state = GameStates.PLAY; // Transition to PLAY state after timer ends
     }
+    private  IEnumerator ChangeScene()
+    {
+        state = GameStates.HIDE;
+        yield return new WaitForSeconds(2f);
+        animator.CrossFade("Hide", 10, 0);
+        gameSequenceCanvas.SetActive(false);
+    }
+
 }

@@ -15,11 +15,27 @@ MonoBehaviour:
   sentences:
   - text: ...
     audio: {fileID: 0}
-    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
-    actions: []
+    speaker: {fileID: 11400000, guid: 49cbd417f936de141a80c1b959b309b6, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 49cbd417f936de141a80c1b959b309b6, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 500, y: -100}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 3462030887005326312, guid: 72101e7e48476e64185a4d25b4156219, type: 3}
+  - text: ...
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 49cbd417f936de141a80c1b959b309b6, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 49cbd417f936de141a80c1b959b309b6, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 500, y: -100}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 218919022896475455, guid: 78e69d714cbdd0843a9c821575bd1e15, type: 3}
   nextScene: {fileID: 11400000, guid: 03f5e14048ca40b4ba5ddac3c346e79a, type: 2}
   escenaFinal: 0
   sceneTransition: 0

@@ -161,7 +161,7 @@ public class BottomBarController : MonoBehaviour
         Vector2 newPosition = rectTransform.anchoredPosition;
         newPosition.x = sentence.speaker.namePositionX;  // Set your desired x value
         rectTransform.anchoredPosition = newPosition;
-        nameBubbleImage.color = sentence.speaker.color;
+        nameBubbleImage.color = sentence.speaker.nameBubbleColor;
 
         personNameText.text = sentence.speaker.speakerName;
         personNameText.color = sentence.speaker.textColor;
